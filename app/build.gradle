@@ -28,4 +28,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation files('libs/ocr-sdk.jar')
     implementation project(path: ':ocr_ui')
+
+    //GSON解析
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 }

@@ -14,4 +14,11 @@
         android:onClick="generalBasic"
         android:text="通用文字识别" />
 
+    <Button
+        android:id="@+id/high_precision_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="highPrecision"
+        android:text="通用文字识别(高精度)" />
+
 </LinearLayout>
